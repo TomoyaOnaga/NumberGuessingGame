@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Guess the Number!!!</title>
+</head>
+<body>
+    <header>
+        <h1>Guess the Number!!!</h1>
+    </header>
+    <div class="container">
+        <div id="input_area">
+            <p>Initialize Number</p>
+            <div class="controlbox">
+                <button id="init_b"> Initialize</button>
+                <button id="give_up"> Give Up</button>
+            </div>
+
+            <p>Enter your number. (3 digits)</p>
+            <input type="number" id="input_val" size="30" maxlength="20">
+            <button id="send_val">Submit</button>
+            <div id="meme">
+                <img src="./img/facememe.jpg" alt ="facememe" width=250px>
+            </div>
+        </div>
+
+        <div id="output_area">
+            <p> [  ENTRY  ] </p>
+            <div id="resultField">
+                <!-- Value to be insereted here.-->
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

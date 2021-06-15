@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgba(215, 218, 235, 0.89);
+}
+
+header {
+    background-color:#007acc;
+    color:#fff;
+    width:100%;
+    top:0;
+    /*
+    z-index:100;
+    position:fixed;
+    */
+}
+
+.container {
+    border-color:black;
+    border-style:"solid";
+    background-color:#378bc4;
+    max-width:600px;
+    margin:0 auto;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.3);
+}
+.controlbox{
+    border-width:4px;
+}
+#input_area{
+
+    float: left;
+    padding:20px;
+}
+
+#output_area{
+
+    float:right;
+}
+
+header h1 {
+    margin: 0;
+    font-size:25pdx;
+    padding:5px;
+    text-align:center;
+}
+#resultField {
+    padding-top:0;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    background-color:white;
+    width: 300px;
+    height: 400px;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+#meme {
+    padding-top:50px;
+    align-items:center;
+}
